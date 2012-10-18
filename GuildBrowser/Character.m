@@ -22,12 +22,6 @@
         
         BOOL genderVal = [data[@"gender"] boolValue];
         _gender = (genderVal) ? @"Female":@"Male";
-//        if (genderVal) {
-//            _gender = @"Female";
-//        } else {
-//            _gender = @"Male";
-//        }
-        
         
         // find selected spec
         _selectedSpec = [self selectedSpecFromTalents:data[@"talents"]];
