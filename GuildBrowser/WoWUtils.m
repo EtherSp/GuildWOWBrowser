@@ -31,7 +31,7 @@ NSString * const WowRaceNameWorgen          = @"Worgen";
 NSString * const WowItemQualityGrey         = @"Grey";
 NSString * const WowItemQualityWhite        = @"White";
 NSString * const WowItemQualityGreen        = @"Green";
-NSString * const WowItemQualityBlue        = @"Blue";
+NSString * const WowItemQualityBlue         = @"Blue";
 NSString * const WowItemQualityPurple       = @"Purple";
 NSString * const WowItemQualityOrange       = @"Orange";
 
@@ -135,7 +135,8 @@ NSString * const WowBattlenetUrlMediaIcon56 = @"http://us.media.blizzard.com/wow
 {
     NSString *qualityName;
     
-    switch (quality) {
+    switch (quality)
+    {
         case Grey:
             qualityName = WowItemQualityGrey;
             break;

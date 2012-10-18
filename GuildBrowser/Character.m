@@ -21,11 +21,13 @@
         _averageItemLevel = data[@"items"][@"averageItemLevel"];
         
         BOOL genderVal = [data[@"gender"] boolValue];
-        if (genderVal) {
-            _gender = @"Female";
-        } else {
-            _gender = @"Male";
-        }
+        _gender = (genderVal) ? @"Female":@"Male";
+//        if (genderVal) {
+//            _gender = @"Female";
+//        } else {
+//            _gender = @"Male";
+//        }
+        
         
         // find selected spec
         _selectedSpec = [self selectedSpecFromTalents:data[@"talents"]];

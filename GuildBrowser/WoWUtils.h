@@ -37,7 +37,8 @@ extern NSString * const WowBattlenetUrlStaticImages;
 extern NSString * const WowBattlenetUrlMediaIconImages;
 
 // class types
-typedef enum {
+typedef enum
+{
     Warrior = 1,
     Paladin = 2,
     Hunter = 3,
